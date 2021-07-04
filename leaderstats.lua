@@ -14,7 +14,7 @@ game.Players.PlayerAdded:Connect(function(plr)
   money.name = "Money"
   money.Parent = plr
   
-  local function moneyUpdate(updatedValue
+  local function moneyUpdate(updatedValue)
     money.Value = moneyDataStore:Get(updatedValue)
     
   end
